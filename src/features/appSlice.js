@@ -1,9 +1,9 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 
 
 
 export const appSlice = createSlice({
-  name: 'counter',
+  name: "app",
   initialState:{
     value:0,
   },
